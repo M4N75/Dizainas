@@ -40,3 +40,25 @@
 .ScrollIcon{
     width: 2.5rem;
 }
+.Header{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.Link{
+    color: white !important;
+}
+@media (max-width: 768px) {
+    .Scroll{
+        display: none;
+    }
+    .Header{
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .Link{
+        text-align: center;
+        background-color: rgba(94, 8, 106, .5);
+    }
+}

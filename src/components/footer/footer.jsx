@@ -11,7 +11,7 @@ export default function Footer(){
     return (
         <footer>
             <div className={Style.Hide}></div>
-            <Container className="w-25 mx-auto text-center">
+            <Container className={Style.RootContainer}>
                 <Row>
                     <Col className="text-center"><img className={Style.Icons} src={T} alt="Twitter"/></Col>
                     <Col className="text-center"><img className={Style.Icons} src={F} alt="FaceBook"/></Col>

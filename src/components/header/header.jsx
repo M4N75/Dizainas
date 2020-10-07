@@ -2,24 +2,19 @@ import React from "react"
 import {Container, Row, Col, Navbar, Nav} from "react-bootstrap"
 
 import Logo from "./Images/logo.png"
-import Menu from "./Images/menu.png"
 import Mouse from "./Images/computer-mouse.png"
 import Style from "./header.module.css"
 
 export default function Header(){
     return (
-        <header className="pl-5 pr-5">
+        <header className={Style.Header}>
             <Navbar className="pt-5" expand="lg">
             <Navbar.Brand className={Style.LogoCol} href="/"><img className={Style.Logo} src={Logo} alt="LOGO" />Anveshan</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
             <Navbar.Collapse className={Style.NavCol} id="basic-navbar-nav">
               <Nav>
-                <Nav.Link className="text-light" href="/">Contact</Nav.Link>
-                <Nav.Link className="text-light" href="/">
-                    Menu
-                    <img src={Menu} alt="menu" className={Style.MenuIcon}/>
-                </Nav.Link>
+                <Nav.Link className={Style.Link} href="/">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

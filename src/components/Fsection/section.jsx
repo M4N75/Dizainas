@@ -9,7 +9,7 @@ export default function FirstSection(){
     return (
         <div className={Style.Root}>
             <Row>
-                <Col style={{backgroundColor: "#eeeeee"}} className="p-5">
+                <Col style={{backgroundColor: "#eeeeee"}} className="pt-5 pb-5">
                     <Chart/>
                 </Col>
                 <Col className="p-5" style={{backgroundColor: "#f8f8f8"}}>
@@ -24,7 +24,7 @@ export default function FirstSection(){
                     <hr/>
                     <Row>
                         <Col lg={4}>
-                            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"/>
+                            <iframe className={Style.Video} src="https://www.youtube.com/embed/tgbNymZ7vqY"/>
                         </Col>
                         <Col>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum, iste a consectetur autem eum ad illum. At, ipsam id quae non, dolor sed modi suscipit tempora quod odio error!
