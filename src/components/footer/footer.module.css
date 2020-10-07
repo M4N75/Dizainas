@@ -1,0 +1,12 @@
+.Icons{
+    width: 25%;
+    border: solid 1px black;
+    padding: 0.5rem;
+}
+.Hide{
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    padding: 5rem;
+    top: 0;
+}

@@ -1,0 +1,24 @@
+.Title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Line{
+    border-bottom: solid 1px black;
+    width: 2em;
+    padding: 0.5rem;
+    display: inline-block;
+}
+.Buble{
+    background-image: url("./images/bubles.png");
+    height: 30rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ColTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
